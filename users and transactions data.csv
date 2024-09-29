@@ -1,19 +1,7 @@
 user_id,first_name,last_name,email,transaction_id,user_id,amount,location,timestamp,transaction_type
-3,Charlie,Brown,charlie@example.com,1,1,4500.50,"New York","2024-09-28 10:00:00",withdrawal
-2,Bob,Johnson,bob@example.com,1,1,4500.50,"New York","2024-09-28 10:00:00",withdrawal
-1,Alice,Smith,alice@example.com,1,1,4500.50,"New York","2024-09-28 10:00:00",withdrawal
-3,Charlie,Brown,charlie@example.com,2,2,300.75,London,"2024-09-28 11:15:00",purchase
-2,Bob,Johnson,bob@example.com,2,2,300.75,London,"2024-09-28 11:15:00",purchase
-1,Alice,Smith,alice@example.com,2,2,300.75,London,"2024-09-28 11:15:00",purchase
-3,Charlie,Brown,charlie@example.com,3,3,1500.00,Tokyo,"2024-09-28 11:30:00",deposit
-2,Bob,Johnson,bob@example.com,3,3,1500.00,Tokyo,"2024-09-28 11:30:00",deposit
-1,Alice,Smith,alice@example.com,3,3,1500.00,Tokyo,"2024-09-28 11:30:00",deposit
-3,Charlie,Brown,charlie@example.com,4,1,50.00,"New York","2024-09-28 12:00:00",purchase
-2,Bob,Johnson,bob@example.com,4,1,50.00,"New York","2024-09-28 12:00:00",purchase
-1,Alice,Smith,alice@example.com,4,1,50.00,"New York","2024-09-28 12:00:00",purchase
-3,Charlie,Brown,charlie@example.com,5,2,3200.00,Paris,"2024-09-28 13:30:00",transfer
-2,Bob,Johnson,bob@example.com,5,2,3200.00,Paris,"2024-09-28 13:30:00",transfer
-1,Alice,Smith,alice@example.com,5,2,3200.00,Paris,"2024-09-28 13:30:00",transfer
-3,Charlie,Brown,charlie@example.com,6,3,2500.00,Tokyo,"2024-09-28 14:00:00",withdrawal
-2,Bob,Johnson,bob@example.com,6,3,2500.00,Tokyo,"2024-09-28 14:00:00",withdrawal
-1,Alice,Smith,alice@example.com,6,3,2500.00,Tokyo,"2024-09-28 14:00:00",withdrawal
+'1','Alice','Smith','alice@example.com','1','1','4500.50','New York','2024-09-28 10:00:00','withdrawal'
+'2','Bob','Johnson','bob@example.com','2','2','300.75','London','2024-09-28 11:15:00','purchase'
+'3','Charlie','Brown','charlie@example.com','3','3','1500.00','Tokyo','2024-09-28 11:30:00','deposit'
+'1','Alice','Smith','alice@example.com','4','1','50.00','New York','2024-09-28 12:00:00','purchase'
+'2','Bob','Johnson','bob@example.com','5','2','3200.00','Paris','2024-09-28 13:30:00','transfer'
+'3','Charlie','Brown','charlie@example.com','6','3','2500.00','Tokyo','2024-09-28 14:00:00','withdrawal'
