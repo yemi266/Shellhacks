@@ -1,61 +1,56 @@
-transaction_id,user_id,amount,location,timestamp,transaction_type
-1,1,4500.50,New York,2024-09-01 10:00:00,deposit
-2,1,150.75,Los Angeles,2024-09-02 11:15:00,withdrawal
-3,1,500.00,New York,2024-09-03 12:30:00,transfer
-4,1,2000.00,San Francisco,2024-09-04 14:45:00,deposit
-5,2,300.75,London,2024-09-05 15:00:00,withdrawal
-6,2,500.25,Paris,2024-09-06 16:00:00,deposit
-7,2,1500.00,Berlin,2024-09-07 17:00:00,transfer
-8,3,800.00,Tokyo,2024-09-08 18:00:00,withdrawal
-9,3,200.00,Sydney,2024-09-09 19:00:00,deposit
-10,3,3000.00,Toronto,2024-09-10 20:00:00,transfer
-11,4,100.00,Mumbai,2024-09-11 21:00:00,deposit
-12,4,200.00,New Delhi,2024-09-12 22:00:00,withdrawal
-13,4,1500.00,Chicago,2024-09-13 23:00:00,transfer
-14,1,700.00,Houston,2024-09-14 10:00:00,withdrawal
-15,2,250.00,Miami,2024-09-15 11:00:00,deposit
-16,3,850.00,Atlanta,2024-09-16 12:00:00,transfer
-17,4,1300.00,Boston,2024-09-17 13:00:00,withdrawal
-18,1,320.00,Dallas,2024-09-18 14:00:00,deposit
-19,2,600.00,Seattle,2024-09-19 15:00:00,transfer
-20,3,1900.00,San Diego,2024-09-20 16:00:00,withdrawal
-21,4,800.00,San Jose,2024-09-21 17:00:00,deposit
-22,1,90.00,Orlando,2024-09-22 18:00:00,transfer
-23,2,1100.00,Las Vegas,2024-09-23 19:00:00,withdrawal
-24,3,4700.00,Washington,2024-09-24 20:00:00,deposit
-25,4,320.00,Philadelphia,2024-09-25 21:00:00,transfer
-26,1,500.00,Denver,2024-09-26 10:00:00,withdrawal
-27,2,4500.00,New Orleans,2024-09-27 11:00:00,deposit
-28,3,230.00,Cleveland,2024-09-28 12:00:00,transfer
-29,4,4100.00,Atlanta,2024-09-29 13:00:00,withdrawal
-30,1,2700.00,Detroit,2024-09-30 14:00:00,deposit
-31,2,150.00,St. Louis,2024-10-01 15:00:00,withdrawal
-32,3,280.00,Phoenix,2024-10-02 16:00:00,transfer
-33,4,3200.00,San Antonio,2024-10-03 17:00:00,withdrawal
-34,1,400.00,Minneapolis,2024-10-04 18:00:00,deposit
-35,2,500.00,Baltimore,2024-10-05 19:00:00,withdrawal
-36,3,300.00,Milwaukee,2024-10-06 20:00:00,transfer
-37,4,600.00,Virginia Beach,2024-10-07 21:00:00,deposit
-38,1,1500.00,Tampa,2024-10-08 10:00:00,withdrawal
-39,2,750.00,Atlanta,2024-10-09 11:00:00,deposit
-40,3,240.00,Portland,2024-10-10 12:00:00,transfer
-41,4,2800.00,Miami,2024-10-11 13:00:00,withdrawal
-42,1,90.00,Orlando,2024-10-12 14:00:00,transfer
-43,2,1250.00,Los Angeles,2024-10-13 15:00:00,withdrawal
-44,3,1900.00,New York,2024-10-14 16:00:00,deposit
-45,4,330.00,Seattle,2024-10-15 17:00:00,transfer
-46,1,6500.00,Boston,2024-10-16 18:00:00,withdrawal
-47,2,3700.00,Dallas,2024-10-17 19:00:00,deposit
-48,3,210.00,San Francisco,2024-10-18 20:00:00,transfer
-49,4,3500.00,Chicago,2024-10-19 21:00:00,withdrawal
-50,1,1300.00,Philadelphia,2024-10-20 10:00:00,deposit
-51,2,400.00,Miami,2024-10-21 11:00:00,withdrawal
-52,3,2100.00,Phoenix,2024-10-22 12:00:00,transfer
-53,4,200.00,New York,2024-10-23 13:00:00,deposit
-54,1,4000.00,San Diego,2024-10-24 14:00:00,withdrawal
-55,2,520.00,Atlanta,2024-10-25 15:00:00,deposit
-56,3,3000.00,Los Angeles,2024-10-26 16:00:00,transfer
-57,4,600.00,Houston,2024-10-27 17:00:00,withdrawal
-58,1,1500.00,Seattle,2024-10-28 18:00:00,deposit
-59,2,900.00,San Antonio,2024-10-29 19:00:00,withdrawal
-60,3,1800.00,Miami,2024-10-30 20:00:00,transfer
+user_id,amount,location,timestamp,transaction_type
+1,5000.00,Los Angeles,2024-09-28 15:00:00,debit
+2,150.25,New York,2024-09-28 15:05:00,debit
+3,200.00,Tokyo,2024-09-28 15:10:00,credit
+1,450.75,Chicago,2024-09-28 15:15:00,debit
+2,3200.50,Sydney,2024-09-28 15:20:00,debit
+3,1800.00,Paris,2024-09-28 15:25:00,credit
+4,50.00,Miami,2024-09-28 15:30:00,debit
+1,700.50,Los Angeles,2024-09-28 15:35:00,debit
+2,2500.00,New York,2024-09-28 15:40:00,debit
+3,300.00,Tokyo,2024-09-28 15:45:00,credit
+4,125.00,Miami,2024-09-28 15:50:00,debit
+1,6000.00,Chicago,2024-09-28 15:55:00,debit
+2,180.00,Sydney,2024-09-28 16:00:00,debit
+3,500.00,Paris,2024-09-28 16:05:00,credit
+4,75.00,Miami,2024-09-28 16:10:00,debit
+1,750.00,Los Angeles,2024-09-28 16:15:00,debit
+2,1200.00,New York,2024-09-28 16:20:00,debit
+3,250.00,Tokyo,2024-09-28 16:25:00,credit
+4,300.00,Miami,2024-09-28 16:30:00,debit
+1,8500.00,Chicago,2024-09-28 16:35:00,debit
+2,220.75,Sydney,2024-09-28 16:40:00,debit
+3,350.00,Paris,2024-09-28 16:45:00,credit
+4,400.00,Miami,2024-09-28 16:50:00,debit
+1,600.50,Los Angeles,2024-09-28 16:55:00,debit
+2,320.00,New York,2024-09-28 17:00:00,debit
+3,400.00,Tokyo,2024-09-28 17:05:00,credit
+4,200.00,Miami,2024-09-28 17:10:00,debit
+1,3500.00,Chicago,2024-09-28 17:15:00,debit
+2,1600.00,Sydney,2024-09-28 17:20:00,debit
+3,100.00,Paris,2024-09-28 17:25:00,credit
+4,275.00,Miami,2024-09-28 17:30:00,debit
+1,500.00,Los Angeles,2024-09-28 17:35:00,debit
+2,145.50,New York,2024-09-28 17:40:00,debit
+3,600.00,Tokyo,2024-09-28 17:45:00,credit
+4,350.00,Miami,2024-09-28 17:50:00,debit
+1,800.00,Chicago,2024-09-28 17:55:00,debit
+2,5000.00,Sydney,2024-09-28 18:00:00,debit
+3,300.50,Paris,2024-09-28 18:05:00,credit
+4,50.00,Miami,2024-09-28 18:10:00,debit
+1,9000.00,Los Angeles,2024-09-28 18:15:00,debit
+2,350.25,New York,2024-09-28 18:20:00,debit
+3,450.00,Tokyo,2024-09-28 18:25:00,credit
+4,225.00,Miami,2024-09-28 18:30:00,debit
+1,650.00,Chicago,2024-09-28 18:35:00,debit
+2,100.00,Sydney,2024-09-28 18:40:00,debit
+3,125.00,Paris,2024-09-28 18:45:00,credit
+4,375.00,Miami,2024-09-28 18:50:00,debit
+1,1200.00,Los Angeles,2024-09-28 18:55:00,debit
+2,200.00,New York,2024-09-28 19:00:00,debit
+3,500.00,Tokyo,2024-09-28 19:05:00,credit
+4,150.00,Miami,2024-09-28 19:10:00,debit
+1,3000.00,Chicago,2024-09-28 19:15:00,debit
+2,450.00,Sydney,2024-09-28 19:20:00,debit
+3,800.00,Paris,2024-09-28 19:25:00,credit
+4,275.00,Miami,2024-09-28 19:30:00,debit
